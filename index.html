@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>Career Maths Plus — Official Typing Test 24 | Sanket Chowdhury | Chakdaha, Nadia</title>
+<meta name="description" content="Official 10-minute English typing test (speed & accuracy) by Career Maths Plus — Sanket Chowdhury, Offline Math & Reasoning batch, Chakdaha, Nadia. Call/WhatsApp 8001514969.">
+<meta name="author" content="Sanket Chowdhury — Career Maths Plus">
+<meta name="theme-color" content="#0b2545">
+<style>
+/* ===================================================================
+   Career Maths Plus — Official Typing Test 24
+   Sanket Chowdhury | Offline Math & Reasoning | Chakdaha, Nadia
+   =================================================================== */
+:root{
+  --navy:#0b2545; --navy2:#143a68; --navy3:#1d4e89;
+  --gold:#e0a92c; --gold2:#ffd166;
+  --green:#147a45; --green2:#e6f6ec;
+  --red:#b3261e; --red2:#fdeceb;
+  --amber:#a86a08; --amber2:#fdf4e3;
+  --bg:#eef1f7; --card:#ffffff; --line:#d9e0ea; --text:#152036; --muted:#5d6c86;
+  --font:"Times New Roman", Times, Georgia, serif;
+  --mono:"Courier New", Courier, monospace;
+  --shadow:0 6px 22px rgba(11,37,69,.08);
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:var(--font); background:var(--bg); color:var(--text);
+  font-size:17px; line-height:1.55; -webkit-text-size-adjust:100%;
+}
+h1,h2,h3,h4{font-family:var(--font); margin:0 0 .4em; line-height:1.25}
+a{color:var(--navy3)}
+.app{max-width:1180px;margin:0 auto;padding:0 14px 40px}
+.hidden{display:none !important}
+.screen{display:none}
+.screen.active{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* ---------------- brand header ------------- */
+.topbar{
+  background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 55%,var(--navy3) 100%);
+  color:#fff;border-radius:0 0 18px 18px;padding:16px 18px;margin:0 -14px 18px;
+  box-shadow:var(--shadow);position:relative;overflow:hidden
+}
+.topbar::after{content:"";position:absolute;right:-60px;top:-70px;width:210px;height:210px;border-radius:50%;
+  background:radial-gradient(circle,rgba(224,169,44,.35),transparent 70%)}
+.brandrow{display:flex;gap:14px;align-items:center;flex-wrap:wrap;position:relative;z-index:1}
+.brandmark{
+  width:56px;height:56px;border-radius:14px;background:linear-gradient(145deg,var(--gold),#f6c95f);
+  color:#12233c;font-weight:bold;display:grid;place-items:center;font-size:19px;line-height:1;letter-spacing:.5px;
+  box-shadow:0 4px 12px rgba(0,0,0,.25);flex:0 0 auto;text-align:center
+}
+.brandmark small{display:block;font-size:9px;letter-spacing:1px;font-weight:bold}
+.brandtext h1{margin:0;font-size:clamp(19px,4.6vw,27px);letter-spacing:.3px}
+.brandtext .tag{font-size:13.5px;opacity:.92}
+.brand-sub{font-size:13px;opacity:.9;margin-top:2px}
+.contactbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;position:relative;z-index:1}
+.chip{
+  display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.28);color:#fff;text-decoration:none;
+  padding:6px 12px;border-radius:999px;font-size:13.5px
+}
+.chip:hover{background:rgba(255,255,255,.24)}
+.chip.gold{background:linear-gradient(145deg,var(--gold),#f4c960);color:#20160a;border-color:transparent;font-weight:bold}
+
+/* ---------------- cards / layout ---------------- */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);margin-bottom:16px}
+.card h2{font-size:21px;border-bottom:2px solid var(--gold);padding-bottom:8px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.card h3{font-size:18px;margin-top:16px;color:var(--navy)}
+.grid{display:grid;gap:16px}
+.grid.two{grid-template-columns:1fr 1fr}
+.grid.three{grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.grid.two,.grid.three{grid-template-columns:1fr}}
+.muted{color:var(--muted)}
+.small{font-size:13.5px}
+.center{text-align:center}
+.mt8{margin-top:8px}.mt12{margin-top:12px}.mt18{margin-top:18px}.mb0{margin-bottom:0}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.row.between{justify-content:space-between}
+.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12.5px;font-weight:bold;letter-spacing:.2px}
+.pill.q{background:var(--green2);color:var(--green);border:1px solid #b9e3c9}
+.pill.dq{background:var(--red2);color:var(--red);border:1px solid #f2c9c6}
+.pill.demo{background:#eef1f7;color:var(--muted);border:1px solid var(--line)}
+.pill.g{background:#fbf3dd;color:#8a6208;border:1px solid #f0dca6}
+
+/* ---------------- forms ---------------- */
+label.f{display:block;font-weight:bold;font-size:14.5px;margin:12px 0 5px}
+label.f span.req{color:var(--red)}
+input[type=text],input[type=tel],input[type=password],input[type=number],select,textarea{
+  width:100%;font-family:var(--font);font-size:16.5px;padding:11px 12px;border:1.5px solid var(--line);
+  border-radius:10px;background:#fff;color:var(--text);outline:none
+}
+input:focus,select:focus,textarea:focus{border-color:var(--navy3);box-shadow:0 0 0 3px rgba(29,78,137,.12)}
+.field-err{color:var(--red);font-size:13px;margin-top:4px;display:none}
+.field-err.show{display:block}
+.checkline{display:flex;gap:10px;align-items:flex-start;margin-top:14px;font-size:14.5px}
+.checkline input{width:20px;height:20px;margin-top:2px;flex:0 0 auto}
+
+.btn{
+  font-family:var(--font);font-size:16.5px;font-weight:bold;padding:12px 22px;border-radius:11px;border:1.5px solid transparent;
+  cursor:pointer;background:var(--navy);color:#fff;transition:.15s;line-height:1.2
+}
+.btn:hover{filter:brightness(1.1)}
+.btn:active{transform:translateY(1px)}
+.btn.gold{background:linear-gradient(145deg,var(--gold),#f2c451);color:#241a05}
+.btn.ghost{background:#fff;color:var(--navy);border-color:var(--navy3)}
+.btn.small{padding:8px 14px;font-size:14.5px}
+.btn.danger{background:#fff;color:var(--red);border-color:#e9b7b3}
+.btn.green{background:var(--green);color:#fff}
+.btn.block{width:100%}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* ---------------- instructions ---------------- */
+.rules{counter-reset:r}
+.rules ol{padding-left:22px;margin:6px 0}
+.rules li{margin-bottom:7px}
+.note{background:var(--amber2);border-left:4px solid var(--gold);padding:10px 13px;border-radius:8px;font-size:14.5px;margin:12px 0}
+.note.blue{background:#eef4fd;border-color:var(--navy3)}
+.note.green{background:var(--green2);border-color:var(--green)}
+table.plain{width:100%;border-collapse:collapse;font-size:15px}
+table.plain th,table.plain td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.plain th{background:#f3f6fb;font-weight:bold}
+table.plain tr:nth-child(even) td{background:#fafbfe}
+
+/* ---------------- test screen ---------------- */
+.testbar{
+  position:sticky;top:0;z-index:30;background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;
+  border-radius:0 0 14px 14px;padding:10px 14px;margin:0 -14px 12px;box-shadow:0 4px 16px rgba(11,37,69,.18)
+}
+.testbar .line1{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.testbar .who{font-size:14.5px;line-height:1.3}
+.testbar .who b{font-size:16.5px}
+.testbar .who .meta{opacity:.85;font-size:13px}
+.clock{
+  font-family:var(--mono);font-size:26px;font-weight:bold;background:rgba(255,255,255,.13);
+  padding:4px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.25);letter-spacing:1px
+}
+.clock.warn{background:rgba(211,47,47,.35);border-color:#ff8f87;animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px}
+@media(max-width:760px){.stats{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:420px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:9px;padding:6px 9px;text-align:center}
+.stat .k{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;opacity:.85}
+.stat .v{font-size:19px;font-weight:bold;font-family:var(--mono)}
+.stat.good{background:rgba(20,122,69,.3)}
+.stat.bad{background:rgba(179,38,30,.32)}
+.prog{height:6px;background:rgba(255,255,255,.2);border-radius:99px;overflow:hidden;margin-top:9px}
+.prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),#ffe9a8);transition:width .4s}
+.toolrow{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:10px;font-size:14px}
+.switch{display:inline-flex;align-items:center;gap:7px;cursor:pointer;user-select:none}
+.switch input{appearance:none;-webkit-appearance:none;width:42px;height:22px;border-radius:99px;background:#c9d3e2;position:relative;outline:none;cursor:pointer;transition:.2s;margin:0}
+.switch input:checked{background:var(--green)}
+.switch input::after{content:"";position:absolute;top:2px;left:2px;width:18px;height:18px;border-radius:50%;background:#fff;transition:.2s}
+.switch input:checked::after{left:22px}
+.passage{
+  font-family:var(--font);background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;
+  max-height:46vh;overflow-y:auto;overflow-x:hidden;font-size:22px;line-height:1.95;letter-spacing:.15px;
+  text-align:justify;user-select:none;-webkit-user-select:none
+}
+@media(max-width:600px){.passage{font-size:19px;line-height:1.85;max-height:38vh;padding:14px}}
+.passage.fs1{font-size:18px;line-height:1.8}
+.passage.fs2{font-size:22px;line-height:1.95}
+.passage.fs3{font-size:27px;line-height:2.05}
+.passage.fs4{font-size:31px;line-height:2.1}
+.w{padding:1px 2px;border-radius:4px;border-bottom:2px solid transparent;white-space:pre-wrap}
+.w.ok{color:var(--green)}
+.w.major{color:var(--red);background:var(--red2);border-bottom-color:var(--red);text-decoration:underline wavy var(--red)}
+.w.minor{color:var(--amber);background:var(--amber2);border-bottom:2px dotted var(--amber)}
+.w.joined{background:#fde3e1;border-bottom:3px double var(--red)}
+.w.untyped{color:#97a3b8}
+.w.cur{background:#e8eefb;box-shadow:0 0 0 2px var(--navy3) inset;border-radius:5px;color:var(--text)}
+.typingbox{
+  font-family:var(--font);width:100%;min-height:150px;font-size:20px;line-height:1.7;padding:14px 16px;
+  border:2px solid var(--navy3);border-radius:12px;background:#fff;resize:vertical;outline:none
+}
+.typingbox:focus{box-shadow:0 0 0 4px rgba(29,78,137,.14)}
+.typingbox.done{background:#f6f8fc;border-color:var(--line)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;margin:8px 0 0}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:5px;vertical-align:-2px}
+.focuswarn{background:var(--red2);color:var(--red);border:1px solid #f0c4c0;border-radius:9px;padding:8px 12px;font-size:14.5px;margin-bottom:8px;display:none}
+.focuswarn.show{display:block}
+
+/* ---------------- countdown overlay ---------------- */
+#countOverlay{position:fixed;inset:0;background:rgba(7,20,38,.93);color:#fff;z-index:200;display:none;place-items:center;text-align:center}
+#countOverlay.show{display:grid}
+#countOverlay .num{font-size:96px;font-weight:bold;color:var(--gold);font-family:var(--mono);animation:pop .8s ease}
+@keyframes pop{from{transform:scale(.5);opacity:0}to{transform:scale(1);opacity:1}}
+
+/* ---------------- result ---------------- */
+.verdict{border-radius:14px;padding:18px;color:#fff;text-align:center;margin-bottom:16px}
+.verdict.q{background:linear-gradient(135deg,#0f6b3d,#1a9b58)}
+.verdict.dq{background:linear-gradient(135deg,#8f1f18,#c0392b)}
+.verdict h2{margin:0;font-size:clamp(22px,5.6vw,34px);letter-spacing:.5px}
+.verdict p{margin:6px 0 0;font-size:15.5px;opacity:.95}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.kpis{grid-template-columns:1fr 1fr}}
+.kpi{background:#fff;border:1px solid var(--line);border-left:5px solid var(--navy3);border-radius:12px;padding:12px 14px}
+.kpi .k{font-size:12.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:bold}
+.kpi .v{font-size:27px;font-weight:bold;font-family:var(--mono);line-height:1.25}
+.kpi.g{border-left-color:var(--green)}.kpi.r{border-left-color:var(--red)}.kpi.a{border-left-color:var(--gold)}
+.calc{background:#f7f9fd;border:1px dashed var(--navy3);border-radius:12px;padding:14px 16px;font-family:var(--mono);font-size:15px;overflow-x:auto}
+.calc b{font-family:var(--font)}
+.mistake{display:grid;grid-template-columns:34px 1fr;gap:10px;border:1px solid var(--line);border-left:5px solid var(--red);border-radius:10px;padding:10px 12px;background:#fff;margin-bottom:9px}
+.mistake.minor{border-left-color:var(--gold)}
+.mistake.extra{border-left-color:#7b4bd6}
+.mistake .n{font-weight:bold;color:var(--muted);font-family:var(--mono)}
+.mistake .w1{font-size:17px}
+.mistake code{background:#f2f5fa;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-family:var(--mono);font-size:14.5px}
+.tblwrap{max-height:420px;overflow:auto;border:1px solid var(--line);border-radius:10px}
+table.data{width:100%;border-collapse:collapse;font-size:14.5px}
+table.data th{position:sticky;top:0;background:#eef3fa;border-bottom:1px solid var(--line);padding:8px 9px;text-align:left;z-index:2;font-size:13.5px}
+table.data td{border-bottom:1px solid #eef1f6;padding:7px 9px;vertical-align:top}
+table.data tr:hover td{background:#f8faff}
+td.st-major{color:var(--red);font-weight:bold}
+td.st-minor{color:var(--amber);font-weight:bold}
+td.st-ok{color:var(--green)}
+td.st-untyped{color:#9aa6bb}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.filters button{font-size:13.5px;padding:6px 12px;border-radius:999px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font-family:var(--font)}
+.filters button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* ---------------- leaderboard ---------------- */
+.board-head{background:linear-gradient(135deg,var(--navy),var(--navy3));color:#fff;border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.board-head h2{margin:0;border:0;color:#fff;font-size:22px;display:block}
+.board-head .sub{font-size:13.5px;opacity:.9}
+table.board{width:100%;border-collapse:collapse;font-size:15px}
+table.board th{background:#0b2545;color:#fff;padding:9px 8px;text-align:left;font-size:13.5px;position:sticky;top:0;z-index:2}
+table.board td{padding:9px 8px;border-bottom:1px solid var(--line)}
+table.board tr.rk-q td{background:#f4fbf7}
+table.board tr.rk-dq td{background:#fdf7f6}
+table.board tr.me td{box-shadow:inset 4px 0 0 var(--gold);font-weight:bold}
+table.board .rk{font-family:var(--mono);font-weight:bold;font-size:16px;text-align:center;width:52px}
+table.board .nm{font-weight:bold}
+table.board .ph{font-size:12.5px;color:var(--muted);font-family:var(--mono)}
+table.board .wpm{font-family:var(--mono);font-weight:bold;font-size:16.5px}
+table.board .medal{font-size:17px}
+.seprow td{background:#e9eef7 !important;font-weight:bold;text-transform:uppercase;font-size:12.5px;letter-spacing:.7px;color:var(--navy)}
+
+/* ---------------- footer ---------------- */
+.foot{text-align:center;font-size:13.5px;color:var(--muted);padding:18px 6px 6px;border-top:1px solid var(--line);margin-top:8px}
+.foot b{color:var(--navy)}
+
+/* ---------------- toast ---------------- */
+#toastWrap{position:fixed;left:50%;transform:translateX(-50%);bottom:22px;z-index:300;display:flex;flex-direction:column;gap:8px;align-items:center;pointer-events:none}
+.toast{background:#0b2545;color:#fff;padding:10px 18px;border-radius:999px;font-size:14.5px;box-shadow:0 8px 24px rgba(0,0,0,.28);animation:up .25s ease}
+.toast.bad{background:var(--red)}.toast.good{background:var(--green)}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* ---------------- print ---------------- */
+@media print{
+  body{background:#fff;font-size:13px}
+  .topbar,.no-print,.prog,.switch,.focuswarn{display:none !important}
+  .card{box-shadow:none;border-color:#bbb;break-inside:avoid}
+  .kpis{grid-template-columns:repeat(4,1fr)}
+  .tblwrap{max-height:none;overflow:visible}
+  .passage{max-height:none;overflow:visible;border:0;padding:0}
+  .screen{display:none}
+  .screen.active{display:block}
+  .print-only{display:block !important}
+}
+.print-only{display:none}
+.print-head{display:none}
+@media print{.print-head{display:block;text-align:center;border-bottom:2px solid #000;margin-bottom:10px;padding-bottom:6px}
+  .print-head h1{margin:0;font-size:20px}.print-head .s{font-size:12px}}
+
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ============ BRAND HEADER ============ -->
+  <header class="topbar">
+    <div class="brandrow">
+      <div class="brandmark">CM+<small>CAREER</small></div>
+      <div class="brandtext">
+        <h1>Career Maths Plus &mdash; Official Typing Test 24</h1>
+        <div class="tag">Founder &amp; Mentor: <b>Sanket Chowdhury</b> &nbsp;|&nbsp; Offline Math &amp; Reasoning Batch</div>
+        <div class="brand-sub">📍 Chakdaha, Nadia, West Bengal &nbsp;|&nbsp; 10 Minutes Speed &amp; Accuracy Test (English)</div>
+      </div>
+    </div>
+    <div class="contactbar">
+      <a class="chip gold" href="tel:+918001514969">📞 Call / WhatsApp: 8001514969</a>
+      <a class="chip" href="https://wa.me/918001514969" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+      <a class="chip" href="javascript:void(0)" data-nav="board">🏆 Leaderboard</a>
+      <a class="chip" href="javascript:void(0)" data-nav="home">🏠 Home</a>
+    </div>
+  </header>
+
+  <!-- ============ SCREEN 1 : REGISTRATION ============ -->
+  <section id="screen-home" class="screen active">
+    <div class="grid two">
+      <div>
+        <div class="card">
+          <h2>🧾 Candidate Registration</h2>
+          <p class="small muted" style="margin-top:-6px">Fill the details exactly as per your exam admit card. All fields are compulsory.</p>
+          <form id="regForm" autocomplete="off" novalidate>
+            <label class="f" for="candName">Candidate Full Name <span class="req">*</span></label>
+            <input type="text" id="candName" placeholder="e.g. Sanket Chowdhury" maxlength="60" autocapitalize="words">
+            <div class="field-err" id="errName">Please enter your full name (minimum 3 letters).</div>
+
+            <label class="f" for="candPhone">Phone / WhatsApp Number <span class="req">*</span></label>
+            <input type="tel" id="candPhone" placeholder="10 digit mobile number" maxlength="10" inputmode="numeric">
+            <div class="field-err" id="errPhone">Enter a valid 10 digit Indian mobile number (starting with 6–9).</div>
+
+            <label class="f" for="candCat">Category <span class="req">*</span></label>
+            <select id="candCat">
+              <option value="">-- Select Category --</option>
+              <option>General / UR</option>
+              <option>OBC</option>
+              <option>SC</option>
+              <option>ST</option>
+              <option>EWS</option>
+              <option>Blind (Visually Handicapped)</option>
+              <option>Low Vision</option>
+              <option>LDCP</option>
+              <option>Ex-Serviceman</option>
+              <option>Other</option>
+            </select>
+            <div class="field-err" id="errCat">Please select your category.</div>
+
+            <label class="f" for="candLang">Test Language</label>
+            <select id="candLang">
+              <option value="English" selected>English (Passage of 286 words)</option>
+              <option value="Bengali" disabled>Bengali (Not available in this test)</option>
+            </select>
+
+            <div class="note blue small" id="phNote">
+              <b>Blind / Low Vision / LDCP candidates:</b> relaxed standards apply automatically — minimum 120 words in 10 minutes and 84 qualifying marks.
+            </div>
+
+            <div class="checkline">
+              <input type="checkbox" id="candAgree">
+              <label for="candAgree">I have read the instructions below and I agree that I am giving this test without any unfair means (no copy / paste / auto tools).</label>
+            </div>
+            <div class="field-err" id="errAgree">Please accept the declaration to continue.</div>
+
+            <div class="row mt18">
+              <button type="submit" class="btn gold" id="btnStart" style="min-width:210px">▶ Start Typing Test</button>
+              <button type="button" class="btn ghost" id="btnPreviewBoard">🏆 View Leaderboard</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="card">
+          <h2>📊 Your Previous Attempts (this device)</h2>
+          <div id="myAttempts" class="small muted">No attempt recorded on this device yet.</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2>📜 Examination Instructions</h2>
+          <div class="rules">
+            <p class="small"><b>Test duration:</b> 10 minutes &nbsp;|&nbsp; <b>Passage:</b> 286 words (English) &nbsp;|&nbsp; <b>Counting rule:</b> 5 key depressions = 1 word</p>
+            <h3>3. Minimum speed for qualifying (except PH candidates)</h3>
+            <ul class="small">
+              <li>Less than <b>200 words</b> typed in 10 minutes (English) → <b>Disqualified</b>.</li>
+              <li>Bengali standard: 100 words (not applicable to this paper).</li>
+            </ul>
+            <h3>4. Minimum speed for Blind / Low Vision / LDCP candidates</h3>
+            <ul class="small">
+              <li>Less than <b>120 words</b> typed in 10 minutes (English) → <b>Disqualified</b>.</li>
+              <li>Bengali standard: 60 words (not applicable to this paper).</li>
+            </ul>
+            <h3>5. Nature of Mistakes</h3>
+            <ul class="small">
+              <li><b>(a)</b> Omission of words or insertion of foreign words → <b>Major</b> mistake.</li>
+              <li><b>(b)</b> Omission of punctuation marks &amp; incorrect punctuation marks → <b>Minor</b> mistake.</li>
+              <li><b>(c)</b> Spelling mistake → <b>Major</b> mistake.</li>
+              <li><b>(d)</b> Insertion of punctuation at the beginning / inside / end of a word → <b>Major</b> mistake.</li>
+              <li><b>(e)</b> Small letter in place of capital or vice-versa (in the word) → <b>Minor</b> mistake.</li>
+            </ul>
+            <h3>6. Calculation of Marks of Accuracy</h3>
+            <div class="calc">Marks = No. of Typed Words − (0.33 × Major Mistakes) − (0.15 × Minor Mistakes)</div>
+            <table class="plain mt12">
+              <tr><th>Standard</th><th>Qualifying Marks</th></tr>
+              <tr><td>English Language (General)</td><td><b>140</b></td></tr>
+              <tr><td>Bengali Language</td><td>70 (N/A here)</td></tr>
+              <tr><td>Blind / Low Vision / LDCP — English</td><td><b>84</b></td></tr>
+              <tr><td>Blind / Low Vision / LDCP — Bengali</td><td>42 (N/A here)</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>ℹ️ Special Rules Used by This Software</h2>
+          <ul class="small">
+            <li><b>Key depressions:</b> total characters typed (including spaces) ÷ 5 = number of words.</li>
+            <li><b>Un-typed / remaining part of the passage is NEVER counted</b> as a major or minor mistake. (If you type 150 words out of 286, only your 150 typed words are evaluated.)</li>
+            <li><b>No space between two words:</b> both those words are counted as <b>major mistakes</b>, and counting continues normally from the very next word — the following words / lines are <u>not</u> affected.</li>
+            <li>A word is counted only <b>once</b>; if a word has both a major and a minor error, it is counted as a <b>major</b> mistake.</li>
+            <li><b>Auto highlight is OFF</b> and <b>auto scroll is OFF</b> — you scroll the passage yourself with the mouse / finger.</li>
+            <li>Copy-Paste, right-click and text selection are disabled. Changing tab is recorded.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCREEN 2 : TYPING TEST ============ -->
+  <section id="screen-test" class="screen">
+    <div class="testbar">
+      <div class="line1">
+        <div class="who">
+          <b id="tCandName">—</b><br>
+          <span class="meta" id="tCandMeta">—</span>
+        </div>
+        <div class="row" style="gap:8px">
+          <div class="clock" id="clock">10:00</div>
+          <button class="btn gold small no-print" id="btnSubmit">✔ Submit Test</button>
+          <button class="btn ghost small no-print" id="btnQuit">✖ Quit</button>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="k">Time Left</div><div class="v" id="stTime">10:00</div></div>
+        <div class="stat"><div class="k">Words (Keys÷5)</div><div class="v" id="stWords">0.0</div></div>
+        <div class="stat"><div class="k">Speed (WPM)</div><div class="v" id="stWpm">0</div></div>
+        <div class="stat" id="statMajorBox"><div class="k">Major</div><div class="v" id="stMajor">0</div></div>
+        <div class="stat" id="statMinorBox"><div class="k">Minor</div><div class="v" id="stMinor">0</div></div>
+      </div>
+      <div class="prog"><i id="progBar"></i></div>
+    </div>
+
+    <div class="focuswarn no-print" id="focusWarn">⚠️ You left the test window. This has been recorded. Tab switching / copying is not allowed.</div>
+
+    <div class="card">
+      <div class="row between no-print" style="margin-bottom:10px">
+        <div class="toolrow mb0">
+          <span class="muted small">Font size:</span>
+          <button class="btn ghost small" id="fontMinus" title="Smaller">A−</button>
+          <button class="btn ghost small" id="fontPlus" title="Bigger">A+</button>
+          <span class="muted small" id="fsLabel">22px</span>
+        </div>
+        <div class="toolrow mb0">
+          <span class="small muted">Auto highlight &amp; auto scrolling are switched <b>OFF</b> in this test.</span>
+        </div>
+      </div>
+
+      <div class="passage fs2" id="passage" oncontextmenu="return false" ondragstart="return false"></div>
+    </div>
+
+    <div class="card">
+      <div class="row between" style="margin-bottom:8px">
+        <h3 class="mb0">⌨️ Type the passage here</h3>
+        <span class="small muted" id="liveNote">The passage will not scroll or highlight while you type</span>
+      </div>
+      <textarea id="typedInput" class="typingbox" spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off"
+        placeholder="Start typing here… the passage above will not scroll or highlight automatically."></textarea>
+      <div class="row between mt8">
+        <span class="small muted">Minimum speed: <b id="tMinWords">200</b> words &nbsp;|&nbsp; Qualifying marks: <b id="tMinMarks">140</b></span>
+        <span class="small muted">Spaces are counted as key depressions — do not type extra spaces.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCREEN 3 : RESULT ============ -->
+  <section id="screen-result" class="screen">
+    <div id="resultRoot"></div>
+  </section>
+
+  <!-- ============ SCREEN 4 : LEADERBOARD ============ -->
+  <section id="screen-board" class="screen">
+    <div class="card">
+      <div class="board-head">
+        <h2>🏆 Career Maths Plus – Typing Test Leaderboard</h2>
+        <div class="sub">Ranking rule: <b>Qualified candidates are always shown on top in order of WPM</b>, followed by disqualified candidates (even if a disqualified candidate typed faster). Data is read live from the Career Maths Plus Google Sheet.</div>
+      </div>
+      <div class="row between no-print" style="margin-bottom:10px">
+        <div class="row">
+          <input type="text" id="boardSearch" placeholder="🔍 Search name or number" style="max-width:230px">
+          <select id="boardCat" style="max-width:200px">
+            <option value="">All categories</option>
+            <option>General / UR</option><option>OBC</option><option>SC</option><option>ST</option><option>EWS</option>
+            <option>Blind (Visually Handicapped)</option><option>Low Vision</option><option>LDCP</option>
+            <option>Ex-Serviceman</option><option>Other</option>
+          </select>
+          <button class="btn small" id="btnBoardRefresh">🔄 Refresh</button>
+        </div>
+        <div class="small muted" id="boardSource">Source: —</div>
+      </div>
+      <div id="boardStatus" class="small muted" style="margin-bottom:8px"></div>
+      <div style="overflow:auto;border:1px solid var(--line);border-radius:10px">
+        <table class="board" id="boardTable"></table>
+      </div>
+      <div class="note small mt12">🔒 Results are stored in the owner's Google Sheet (Career Maths Plus). Candidates cannot edit or erase any entry; every submission is safely locked in the sheet.</div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <b>Career Maths Plus</b> &mdash; Sanket Chowdhury &nbsp;|&nbsp; Offline Math &amp; Reasoning Batch, Chakdaha, Nadia, West Bengal<br>
+    Call / WhatsApp: <a href="tel:+918001514969">8001514969</a> &nbsp;|&nbsp; © <span id="footYear"></span> Career Maths Plus. All rights reserved.
+  </footer>
+</div>
+
+<div id="countOverlay"><div><div class="num" id="countNum">3</div><div style="font-size:20px">Get ready… start typing when the passage appears</div></div></div>
+<div id="toastWrap"></div>
+
+<!-- ==================================================================
+     ★ CAREER MATHS PLUS — OWNER SETTINGS ★   (only these values to fill)
+     ==================================================================
+     1) SHEET_ID          → from your Google Sheet URL:
+                            docs.google.com/spreadsheets/d/[THIS PART]/edit
+     2) APPS_SCRIPT_URL   → the Apps Script Web App link ending with /exec
+                            (this one SAVES every result into the sheet)
+     3) WRITE_TOKEN       → must be the same as WRITE_TOKEN inside the script
+     Leave both empty and the test still works — results stay on the device
+     and the leaderboard shows sample (DEMO) rows.
+     ================================================================== -->
+<script>
+window.CMP_CONFIG = {
+  SHEET_ID: "1bso9cwA8e8q98ENNE5_hpW6fXIBbr19dzeBABhSNH8U",                 // e.g. "1bso9cwA8e8q98ENNE5_hpW6fXIBbr19dzeBABhSNH8U"
+  SHEET_TAB: "Responses",       // tab name inside the sheet
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbwxL6X9PSdVBdlne_uRO172qogoOT_VftAx7zNLXsxbHsb94Z7OSu81S_79LCfk-KHt/exec",          // e.g. "https://script.google.com/macros/s/AKfy.../exec"
+  WRITE_TOKEN: "CMP-2026-SANKET",
+  SHOW_FULL_PHONE: false,       // true = show full mobile numbers on the leaderboard
+  EXTRA_TIME_PH_PERCENT: 0      // extra time % for Blind / Low Vision / LDCP (0 = same time)
+};
+</script>
+
+<script id="passageJson" type="application/json">"Holi is one of the important festivals of the Hindus. It is a colorful festival of great joy and enthusiasm. This festival is celebrated all over the country as a day filled with complete mischief, fun and enjoyment. Holi indicates the end of the winters and the beginning of the spring season. According to the Hindu calendar it is celebrated on the full-moon night of the month of Phalgun. Holi is celebrated to mark the victory of truth over evil, the victory of Prahlad over King Hiranyakashyap. Prahlad was a devotee of God. His father, King Hiranyakashyap did not believe in God but-believed in his own powers. He failed to deviate his son's devotion to God and decided to kill him by burning him alive. Prahlad's sister, Holika, had a God-gifted boon that she would not be burnt in the fire. She sat with her nephew in the blazing fire. Holika let herself be burnt and Prahlad was saved. The truth, the powers of the Supreme God, defeated the false evil. During the day women folk worship a stack of wooden logs called Holi. At the end of the day in the full-moon night Holi is burnt in a holy way. The green ears of barley and gram are heated up in the fire and distributed among friends and relatives new. Friendships are made and old enmities are forgotten. Next day is the festive day of Holi. All hearts are filled with joy. Children throw colored water on each other while the elder people apply 'gulal' or 'abir', There are noisy scenes as little groups of children move from one locality to another exchanging holi greetings, singing songs and laughing at their own jokes. It is almost mid-day when people move indoors to freshen themselves. Though this is a festival of brotherhood and unity, it has some disadvantages too. Some ill-minded people-take this day as a chance to take revenge. They use dirty mud water. Use of strong colors harmful to the skin, charcoal and grease often create a serious quarrel. This leads to unnecessary enmity and spoils the charm of the festival."</script>
+<script>
+/* ============================================================
+   Career Maths Plus — Typing Test Mistake + Marks Engine
+   Rule set (as per exam instructions):
+   5(a) Omission of words / insertion of foreign words -> MAJOR
+   5(b) Omission of punctuation / incorrect punctuation -> MINOR
+   5(c) Spelling mistake -> MAJOR
+   5(d) Punctuation inserted at beginning/inside/end of a word -> MAJOR
+   5(e) Small letter in place of capital & vice-versa -> MINOR
+   6(a) Marks = Typed Words - 0.33 x Major - 0.15 x Minor
+   Special : words typed without a space (joined) -> BOTH words become
+             MAJOR mistakes and alignment continues (no cascading)
+   Special : the un-typed / remaining part of the passage is NEVER
+             counted as a mistake.
+   ============================================================ */
+(function (root) {
+  'use strict';
+
+  var ALNUM = /[\p{L}\p{N}]/u;
+
+  /* every mistake reason carries its instruction rule code, so the app never has
+     to guess the category from the wording */
+  var MSG = {
+    spell:    { cat: '5c', text: 'Spelling mistake / wrong word typed [Rule 5(c)]' },
+    kase:     { cat: '5e', text: 'Small letter typed in place of capital letter or vice-versa [Rule 5(e)]' },
+    punctIns: { cat: '5d', text: 'Punctuation inserted at the beginning / inside / end of a word [Rule 5(d)]' },
+    punctOmi: { cat: '5b', text: 'Omission of punctuation mark [Rule 5(b)]' },
+    punctBad: { cat: '5b', text: 'Incorrect punctuation mark placed in the word [Rule 5(b)]' },
+    fallback: { cat: '5b', text: 'Word not typed exactly as per the passage [Rule 5(b)]' },
+    omitWord: { cat: '5a', text: 'Omission of word [Rule 5(a)]' },
+    extraWord:{ cat: '5a', text: 'Insertion of foreign / extra word [Rule 5(a)]' },
+    join2:    { cat: '5a', text: 'Two words typed without a space between them [Rule 5(a)]' },
+    joinN:    { cat: '5a', text: 'Three words typed without any space between them [Rule 5(a)]' }
+  };
+  function joinMsg(k) { return k === 2 ? MSG.join2 : MSG.joinN; }
+
+  function coreChars(s) {
+    var out = '';
+    for (var i = 0; i < s.length; i++) {
+      var ch = s[i];
+      if (ALNUM.test(ch)) out += ch;
+    }
+    return out;
+  }
+  function punctChars(s) {
+    var out = '';
+    for (var i = 0; i < s.length; i++) {
+      var ch = s[i];
+      if (!ALNUM.test(ch)) out += ch;
+    }
+    return out;
+  }
+  function tokenize(text) {
+    return String(text || '').replace(/\u00a0/g, ' ').trim().split(/\s+/).filter(function (w) { return w.length; });
+  }
+  function lev(a, b) {
+    var m = a.length, n = b.length;
+    if (!m) return n; if (!n) return m;
+    var prev = new Array(n + 1), cur = new Array(n + 1), i, j;
+    for (j = 0; j <= n; j++) prev[j] = j;
+    for (i = 1; i <= m; i++) {
+      cur[0] = i;
+      for (j = 1; j <= n; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      }
+      for (j = 0; j <= n; j++) prev[j] = cur[j];
+    }
+    return prev[n];
+  }
+
+  /* compare ONE typed token against ONE passage token */
+  function comparePair(typedTok, origTok) {
+    var out = { major: [], minor: [], majorCats: [], minorCats: [] };
+    if (typedTok === origTok) return out;
+    function add(kind, m) {
+      if (kind === 'major') { out.major.push(m.text); out.majorCats.push(m.cat); }
+      else { out.minor.push(m.text); out.minorCats.push(m.cat); }
+    }
+
+    var tc = coreChars(typedTok), oc = coreChars(origTok);
+    if (tc.toLowerCase() !== oc.toLowerCase()) {
+      add('major', MSG.spell);                       /* letters wrong -> spelling (5c) */
+    } else if (tc !== oc) {
+      add('minor', MSG.kase);                        /* only capital/small differs (5e) */
+    }
+
+    /* punctuation check */
+    var a = punctChars(typedTok);   /* typed punctuation sequence   */
+    var b = punctChars(origTok);    /* passage punctuation sequence */
+    if (a !== b) {
+      if (a.length > b.length) add('major', MSG.punctIns);       /* 5(d) */
+      else if (a.length < b.length) add('minor', MSG.punctOmi);  /* 5(b) omission */
+      else add('minor', MSG.punctBad);                           /* 5(b) incorrect */
+    }
+
+    if (!out.major.length && !out.minor.length) add('minor', MSG.fallback);
+    return out;
+  }
+
+  /* did the candidate join 2 or 3 passage words into ONE typed token? */
+  function mergeMatch(typedTok, origTokens) {
+    var t = coreChars(typedTok).toLowerCase();
+    if (!t) return false;
+    var joined = origTokens.map(function (x) { return coreChars(x).toLowerCase(); }).join('');
+    if (!joined) return false;
+    if (t === joined) return true;
+    var ratio = t.length / joined.length;
+    return ratio >= 0.78 && lev(t, joined) <= 2;
+  }
+
+  function pairCost(r) { return r.major.length * 1.0 + r.minor.length * 0.5; }
+
+  /* ---------------- main alignment + scoring ---------------- */
+  function scoreTyping(typedText, passageText, opts) {
+    opts = opts || {};
+    var T = tokenize(typedText), O = tokenize(passageText);
+    var n = T.length, m = O.length;
+    var win = (opts.window && n + opts.window < m) ? n + opts.window : m;
+    var mFull = m;
+    m = win;
+    var INF = 1e15;
+    var Tcore = new Array(n), Ocore = new Array(m), i0;
+    for (i0 = 0; i0 < n; i0++) Tcore[i0] = coreChars(T[i0]).toLowerCase();
+    for (i0 = 0; i0 < m; i0++) Ocore[i0] = coreChars(O[i0]).toLowerCase();
+    var J2 = new Array(m), J3 = new Array(m);
+    for (i0 = 0; i0 < m; i0++) {
+      J2[i0] = Ocore[i0] + (Ocore[i0 + 1] || '');
+      J3[i0] = J2[i0] + (Ocore[i0 + 2] || '');
+    }
+    function near(a, b) {
+      if (!b) return false;
+      if (a === b) return true;
+      var r = a.length / b.length;
+      if (r < 0.75 || r > 1.3) return false;
+      return lev(a, b) <= 2;
+    }
+    function m2(ii, jj) { return jj + 1 < m && near(Tcore[ii], J2[jj]); }
+    function m3(ii, jj) { return jj + 2 < m && near(Tcore[ii], J3[jj]); }
+
+    var cmpCache = new Array(n + 1);
+    for (i = 0; i < n; i++) cmpCache[i] = new Array(m + 1);
+    function cmp(ii, jj) {
+      var r = cmpCache[ii][jj];
+      if (!r) { r = comparePair(T[ii], O[jj]); cmpCache[ii][jj] = r; }
+      return r;
+    }
+    var dp = [], ch = [], i, j;
+    for (i = 0; i <= n; i++) { dp.push(new Float64Array(m + 1).fill(INF)); ch.push(new Array(m + 1).fill(null)); }
+    dp[0][0] = 0;
+
+    function relax(ni, nj, cost, info) {
+      if (dp[ni][nj] > cost) { dp[ni][nj] = cost; ch[ni][nj] = info; }
+    }
+
+    for (i = 0; i <= n; i++) {
+      for (j = 0; j <= m; j++) {
+        var c = dp[i][j];
+        if (c >= INF) continue;
+        if (i < n && j < m) {
+          relax(i + 1, j + 1, c + pairCost(cmp(i, j)), { op: 1, i: i, j: j });
+        }
+        if (i < n) { /* extra / foreign word typed */
+          relax(i + 1, j, c + 1, { op: 2, i: i });
+        }
+        if (j < m) { /* passage word skipped  (only counted when internal) */
+          relax(i, j + 1, c + 1, { op: 3, j: j });
+        }
+        if (i < n && m2(i, j)) {
+          relax(i + 1, j + 2, c + 2, { op: 4, i: i, j: j, k: 2 });
+        }
+        if (i < n && m3(i, j)) {
+          relax(i + 1, j + 3, c + 3, { op: 4, i: i, j: j, k: 3 });
+        }
+      }
+    }
+
+    /* best end state: remaining un-typed passage words are FREE (never a mistake) */
+    var best = INF, bj = m;
+    for (j = 0; j <= m; j++) { if (dp[n][j] < best) { best = dp[n][j]; bj = j; } }
+
+    /* reconstruct */
+    var ops = [];
+    var ci = n, cj = bj;
+    while (ci > 0 || cj > 0) {
+      var info = ch[ci][cj];
+      if (!info) break;
+      ops.push(info);
+      if (info.op === 1) { ci = info.i; cj = info.j; }
+      else if (info.op === 2) { ci = info.i; cj = cj; }
+      else if (info.op === 3) { ci = ci; cj = info.j; }
+      else { ci = info.i; cj = info.j; }
+    }
+    ops.reverse();
+
+    /* drop trailing omissions (un-typed tail) — belt & braces */
+    while (ops.length && ops[ops.length - 1].op === 3) ops.pop();
+
+    var types = new Array(m);
+    for (j = 0; j < m; j++) types[j] = { status: 'pending', typed: [], reasons: [] };
+    var extras = [];
+    var major = 0, minor = 0;
+    var detail = [];
+
+    ops.forEach(function (o) {
+      if (o.op === 1) {
+        var r = cmp(o.i, o.j);
+        var st = r.major.length ? (r.minor.length ? 'major' : 'major') : (r.minor.length ? 'minor' : 'ok');
+        if (st === 'ok') { types[o.j].status = 'ok'; types[o.j].typed.push(T[o.i]); }
+        else {
+          types[o.j].status = (st === 'major') ? 'major' : 'minor';
+          types[o.j].typed.push(T[o.i]);
+          types[o.j].reasons = types[o.j].reasons.concat(r.major, r.minor);
+          if (st === 'major') types[o.j].majorOnly = r.major.slice();
+        }
+        major += r.major.length ? 1 : 0;
+        minor += (r.major.length ? 0 : (r.minor.length ? 1 : 0));
+        if (r.major.length || r.minor.length) {
+          detail.push({
+            wordNo: o.j + 1, orig: O[o.j], typed: T[o.i],
+            major: r.major.slice(), minor: r.minor.slice(),
+            majorCats: r.majorCats.slice(), minorCats: r.minorCats.slice()
+          });
+        }
+      } else if (o.op === 2) {
+        major += 1;
+        types[Math.max(0, Math.min(m - 1, o.i))] && (types[Math.max(0, Math.min(m - 1, o.i))].extraNear = true);
+        detail.push({
+          wordNo: null, orig: '—', typed: T[o.i],
+          major: [MSG.extraWord.text], minor: [], majorCats: [MSG.extraWord.cat], minorCats: []
+        });
+        extras.push(T[o.i]);
+      } else if (o.op === 3) {
+        major += 1;
+        types[o.j].status = 'major';
+        types[o.j].reasons.push('Omission of word (skipped in the middle of typing) [Rule 5(a)]');
+        detail.push({
+          wordNo: o.j + 1, orig: O[o.j], typed: '(not typed)',
+          major: [MSG.omitWord.text], minor: [], majorCats: [MSG.omitWord.cat], minorCats: []
+        });
+      } else if (o.op === 4) {
+        /* the candidate typed ${o.k} words as ONE word (no space): each word is
+           a separate major mistake, and the very next word is compared normally */
+        var jm = joinMsg(o.k);
+        var joinedNote = jm.text + ' — each of these words is counted as a separate major mistake';
+        for (var k = 0; k < o.k; k++) {
+          major += 1;
+          var idx = o.j + k;
+          types[idx].status = 'major';
+          types[idx].typed.push(T[o.i]);
+          types[idx].reasons.push(jm.text);
+          detail.push({
+            wordNo: idx + 1, orig: O[idx], typed: T[o.i],
+            major: [joinedNote], minor: [], majorCats: [jm.cat], minorCats: []
+          });
+        }
+      }
+    });
+
+    /* words after the last attempted position => notAttempted (NO penalty) */
+    var lastAttempted = -1;
+    for (j = 0; j < m; j++) if (types[j].status !== 'pending') lastAttempted = j;
+    for (j = 0; j < m; j++) if (types[j].status === 'pending') types[j].status = (j > lastAttempted) ? 'untyped' : 'ok';
+
+    var typedWords = (String(typedText || '').replace(/\r/g, '').length) / 5;
+    var marks = typedWords - 0.33 * major - 0.15 * minor;
+
+    /* restore full-length word-type array */
+    if (m < mFull) {
+      for (j = m; j < mFull; j++) types[j] = { status: 'untyped', typed: [], reasons: [] };
+    }
+    return {
+      totalPassageWords: mFull,
+      typedTokens: n,
+      lastAttemptedIndex: lastAttempted,
+      wordTypes: types,
+      extras: extras,
+      major: major,
+      minor: minor,
+      detail: detail,
+      typedWords: typedWords,
+      marks: marks
+    };
+  }
+
+  var api = {
+    scoreTyping: scoreTyping,
+    tokenize: tokenize,
+    coreChars: coreChars,
+    comparePair: comparePair,
+    mergeMatch: mergeMatch
+  };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  root.TypingEngine = api;
+})(typeof window !== 'undefined' ? window : globalThis);
+
+</script>
+<script>
+/* ===================================================================
+   Career Maths Plus — Official Typing Test 24  (application layer)
+   Owner : Sanket Chowdhury | Chakdaha, Nadia | Call/WhatsApp 8001514969
+   =================================================================== */
+(function () {
+  'use strict';
+
+  /* ------------------------------------------------------------------ *
+   *  0.  CONSTANTS
+   * ------------------------------------------------------------------ */
+  var PASSAGE = (function () {
+    try { return JSON.parse(document.getElementById('passageJson').textContent); }
+    catch (e) { return ''; }
+  })();
+
+  var TEST_MINUTES = 10;
+  var STD = { normal: { minWords: 200, minMarks: 140 }, ph: { minWords: 120, minMarks: 84 } };
+  var LS = {
+    rec: 'cmp_typing_records_v1',
+    last: 'cmp_typing_last_candidate_v1',
+    cache: 'cmp_typing_board_cache_v1'
+  };
+  /* Settings are read from the "OWNER SETTINGS" block at the top of this HTML file.
+     Nothing here needs to be edited — just fill that block once. */
+  var CFG_FALLBACK = {
+    SHEET_ID: '', SHEET_TAB: 'Responses', APPS_SCRIPT_URL: '',
+    WRITE_TOKEN: 'CMP-2026-SANKET', SHOW_FULL_PHONE: false, EXTRA_TIME_PH_PERCENT: 0
+  };
+  var DEMO_ROWS = [
+    /* sample rows shown until the owner connects the Google Sheet.
+       They also demonstrate the ranking rule: qualified candidates first (by WPM),
+       disqualified candidates below — however fast they typed.                    */
+    { name: 'Arnab Ghosh', phone: '9832101122', category: 'General / UR', typedWords: 312.4, wpm: 31.24, major: 6, minor: 9, marks: 309.07, tsLocal: '05-Oct-2026 11:20' },
+    { name: 'Priya Mondal', phone: '9007765544', category: 'OBC', typedWords: 268.2, wpm: 26.82, major: 4, minor: 12, marks: 265.08, tsLocal: '05-Oct-2026 12:05' },
+    { name: 'Rahul Das', phone: '7890554411', category: 'SC', typedWords: 233.6, wpm: 23.36, major: 9, minor: 7, marks: 229.58, tsLocal: '04-Oct-2026 17:40' },
+    { name: 'Sneha Roy', phone: '8600998877', category: 'Low Vision', typedWords: 246.0, wpm: 24.6, major: 14, minor: 10, marks: 239.88, tsLocal: '04-Oct-2026 18:15' },
+    { name: 'Anita Das', phone: '7002213388', category: 'Blind (Visually Handicapped)', typedWords: 129.6, wpm: 12.96, major: 3, minor: 7, marks: 127.56, tsLocal: '04-Oct-2026 19:02' },
+    { name: 'Sujoy Halder', phone: '8910223344', category: 'General / UR', typedWords: 198.4, wpm: 19.84, major: 19, minor: 11, marks: 190.48, tsLocal: '03-Oct-2026 16:10' },
+    { name: 'Mou Saha', phone: '8116674455', category: 'ST', typedWords: 151.6, wpm: 15.16, major: 5, minor: 4, marks: 149.35, tsLocal: '03-Oct-2026 09:55' }
+  ];
+
+  /* ------------------------------------------------------------------ *
+   *  1.  SMALL UTILITIES
+   * ------------------------------------------------------------------ */
+  function $(s, r) { return (r || document).querySelector(s); }
+  function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+    });
+  }
+  function r2(n) { return Math.round(n * 100) / 100; }
+  function num(v) { var n = parseFloat(String(v == null ? '' : v).replace(/[^0-9.\-]/g, '')); return isNaN(n) ? 0 : n; }
+  function mmss(sec) {
+    sec = Math.max(0, Math.round(sec));
+    var m = Math.floor(sec / 60), s = sec % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+  }
+  function stamp(d) {
+    d = d || new Date();
+    var p = function (n) { return (n < 10 ? '0' : '') + n; };
+    var M = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    return p(d.getDate()) + '-' + M[d.getMonth()] + '-' + d.getFullYear() + ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+  }
+  function maskPhone(p) {
+    p = String(p || '');
+    if (p.length < 6) return p;
+    return p.slice(0, 3) + 'XXXX' + p.slice(-3);
+  }
+  function toast(msg, kind) {
+    var w = $('#toastWrap'); if (!w) return;
+    var t = document.createElement('div');
+    t.className = 'toast ' + (kind || '');
+    t.textContent = msg;
+    w.appendChild(t);
+    setTimeout(function () { t.style.opacity = '0'; t.style.transition = 'opacity .4s'; }, 2200);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2700);
+  }
+  function isPH(cat) { return /blind|low vision|ldcp/i.test(cat || ''); }
+  function readLS(k, dflt) {
+    try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : dflt; } catch (e) { return dflt; }
+  }
+  function writeLS(k, v) {
+    try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; }
+  }
+  function cfg() {
+    var c = (typeof window !== 'undefined' && window.CMP_CONFIG) ? window.CMP_CONFIG : {};
+    var g = function (v, d) { return (v === undefined || v === null || v === '') ? d : v; };
+    var extra = parseInt(g(c.EXTRA_TIME_PH_PERCENT, 0), 10);
+    return {
+      sheetId: String(g(c.SHEET_ID, '')).trim(),
+      tab: String(g(c.SHEET_TAB, g(CFG_FALLBACK.SHEET_TAB, 'Responses'))).trim() || 'Responses',
+      webApp: String(g(c.APPS_SCRIPT_URL, '')).trim(),
+      token: String(g(c.WRITE_TOKEN, CFG_FALLBACK.WRITE_TOKEN)).trim(),
+      extraTime: isNaN(extra) ? 0 : Math.max(0, Math.min(100, extra)),
+      showPhone: !!c.SHOW_FULL_PHONE,
+      source: 'auto'
+    };
+  }
+  function records() { var r = readLS(LS.rec, []); return Array.isArray(r) ? r : []; }
+  function saveRecords(list) {
+    if (list.length > 400) list = list.slice(list.length - 400);
+    writeLS(LS.rec, list);
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  2.  ROUTER
+   * ------------------------------------------------------------------ */
+  var state = {
+    cand: null, startTime: 0, endTime: 0, totalMs: TEST_MINUTES * 60000, timer: null,
+    finished: true, focusLoss: 0, lastLive: null, liveTimer: null, words: [], spans: [],
+    score: null, record: null, fontStep: 2, allowLeave: false
+  };
+
+  function show(screen) {
+    $$('.screen').forEach(function (s) { s.classList.remove('active'); });
+    var el = $('#screen-' + screen);
+    if (el) el.classList.add('active');
+    try { window.scrollTo(0, 0); } catch (e) { }
+    if (screen === 'board') renderBoard();
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  3.  REGISTRATION
+   * ------------------------------------------------------------------ */
+  function fillLastCandidate() {
+    var last = readLS(LS.last, null);
+    if (last) {
+      if (last.name) $('#candName').value = last.name;
+      if (last.phone) $('#candPhone').value = last.phone;
+      if (last.category) $('#candCat').value = last.category;
+    }
+    renderMyAttempts();
+  }
+
+  function renderMyAttempts() {
+    var box = $('#myAttempts'); if (!box) return;
+    var list = records().slice().reverse().slice(0, 5);
+    if (!list.length) { box.innerHTML = '<span class="muted">No attempt recorded on this device yet.</span>'; return; }
+    var h = '<table class="plain"><tr><th>Date</th><th>Name</th><th>Words</th><th>Marks</th><th>Result</th></tr>';
+    list.forEach(function (r) {
+      h += '<tr><td>' + esc(r.tsLocal || '') + '</td><td>' + esc(r.name || '') + '</td><td>' +
+        r2(r.typedWords || 0).toFixed(1) + '</td><td>' + r2(r.marks || 0).toFixed(2) + '</td><td>' +
+        '<span class="pill ' + (r.qualified ? 'q' : 'dq') + '">' + (r.qualified ? 'QUALIFIED' : 'DISQUALIFIED') + '</span></td></tr>';
+    });
+    h += '</table>';
+    box.innerHTML = h;
+  }
+
+  function registerFormSubmit(e) {
+    e.preventDefault();
+    var name = $('#candName').value.trim().replace(/\s+/g, ' ');
+    var phone = $('#candPhone').value.replace(/\D/g, '');
+    var cat = $('#candCat').value;
+    var agree = $('#candAgree').checked;
+    var ok = true;
+    var setName = function (el, good) { el.classList[good ? 'remove' : 'add']('show'); };
+
+    setName($('#errName'), /^[A-Za-z][A-Za-z .\u0980-\u09FF]{2,59}$/.test(name));
+    setName($('#errPhone'), /^[6-9]\d{9}$/.test(phone));
+    setName($('#errCat'), !!cat);
+    setName($('#errAgree'), agree);
+    if (!$('#errName').classList.contains('show')) { } else ok = false;
+    if ($('#errPhone').classList.contains('show')) ok = false;
+    if ($('#errCat').classList.contains('show')) ok = false;
+    if ($('#errAgree').classList.contains('show')) ok = false;
+    if (!ok) { toast('Please complete all the required details correctly.', 'bad'); return; }
+
+    state.cand = { name: name, phone: phone, category: cat, isPH: isPH(cat), lang: 'English' };
+    writeLS(LS.last, state.cand);
+    startCountdown();
+  }
+
+  function startCountdown() {
+    var ov = $('#countOverlay'), n = $('#countNum'), i = 3;
+    n.textContent = i;
+    ov.classList.add('show');
+    var iv = setInterval(function () {
+      i--;
+      if (i <= 0) {
+        clearInterval(iv);
+        ov.classList.remove('show');
+        beginTest();
+      } else {
+        n.textContent = i;
+        n.style.animation = 'none'; void n.offsetWidth; n.style.animation = 'pop .8s ease';
+      }
+    }, 900);
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  4.  TEST SCREEN
+   * ------------------------------------------------------------------ */
+  function renderPassage() {
+    var p = $('#passage');
+    state.words = PASSAGE.split(/\s+/).filter(function (w) { return w.length; });
+    var html = '';
+    for (var i = 0; i < state.words.length; i++) {
+      html += '<span class="w" data-i="' + i + '" id="w' + i + '">' + esc(state.words[i]) + ' </span>';
+    }
+    p.innerHTML = html;
+    state.spans = $$('.w', p);
+  }
+
+  function beginTest() {
+    var c = state.cand;
+    var extra = parseInt(cfg().extraTime, 10) || 0;
+    state.totalMs = TEST_MINUTES * 60000 * (1 + (c.isPH ? extra : 0) / 100);
+    state.startTime = Date.now();
+    state.endTime = state.startTime + state.totalMs;
+    state.finished = false;
+    state.focusLoss = 0;
+    state.allowLeave = false;
+    state.score = null;
+    state.lastLive = null;
+
+    $('#tCandName').textContent = c.name;
+    $('#tCandMeta').textContent = 'Category: ' + c.category + ' • ' + maskPhone(c.phone) + ' • English • ' +
+      (c.isPH ? 'PH standard (120 words / 84 marks)' : 'Normal standard (200 words / 140 marks)');
+    var st = c.isPH ? STD.ph : STD.normal;
+    $('#tMinWords').textContent = st.minWords;
+    $('#tMinMarks').textContent = st.minMarks;
+
+    var ta = $('#typedInput');
+    ta.value = '';
+    ta.disabled = false;
+    ta.classList.remove('done');
+    renderPassage();
+    updateStats();
+    show('test');
+    try { if (document.documentElement.requestFullscreen && window.innerWidth > 900) document.documentElement.requestFullscreen(); } catch (e) { }
+    setTimeout(function () { try { ta.focus(); } catch (e) { } }, 250);
+
+    clearInterval(state.timer);
+    state.timer = setInterval(tick, 250);
+    tick();
+  }
+
+  function tick() {
+    if (state.finished) return;
+    var now = Date.now();
+    var left = state.endTime - now;
+    var elapsed = (now - state.startTime) / 1000;
+    $('#clock').textContent = mmss(left / 1000);
+    $('#stTime').textContent = mmss(left / 1000);
+    $('#clock').classList[left < 60000 ? 'add' : 'remove']('warn');
+    updateStats(elapsed);
+    if (left <= 0) finishTest('time');
+  }
+
+  function typedInfo() {
+    var t = $('#typedInput').value;
+    var chars = t.replace(/\r/g, '').length;
+    var words = chars / 5;
+    var tokens = t.trim().length ? t.trim().split(/\s+/) : [];
+    var curIdx = 0;
+    if (tokens.length) {
+      curIdx = /\s$/.test(t) || /\s\s$/.test(t) ? tokens.length : tokens.length - 1;
+    }
+    return { text: t, chars: chars, words: words, tokens: tokens, curIdx: curIdx };
+  }
+
+  function updateStats(elapsedSec) {
+    var info = typedInfo();
+    var el = elapsedSec === undefined ? (Date.now() - state.startTime) / 1000 : elapsedSec;
+    el = Math.max(el, 0.25);
+    var wpm = info.words / (el / 60);
+    $('#stWords').textContent = info.words.toFixed(1);
+    $('#stWpm').textContent = el < 5 ? '0' : String(Math.min(300, Math.round(wpm)));
+    var prog = Math.min(100, (info.chars / PASSAGE.length) * 100);
+    $('#progBar').style.width = prog.toFixed(1) + '%';
+    /* mistake counters only — the passage itself is never highlighted or scrolled */
+    if (!state.finished) scheduleLiveScore();
+  }
+
+  function scheduleLiveScore() {
+    if (state.liveTimer) return;
+    state.liveTimer = setTimeout(function () {
+      state.liveTimer = null;
+      if (state.finished) return;
+      var sc = TypingEngine.scoreTyping(typedInfo().text, PASSAGE, { window: 12 });
+      state.lastLive = sc;
+      $('#stMajor').textContent = sc.major;
+      $('#stMinor').textContent = sc.minor;
+    }, 800);
+  }
+
+  /* ------------------ input guards ------------------ */
+  function guardInput() {
+    var ta = $('#typedInput');
+    ta.addEventListener('input', function () {
+      if (state.finished) return;
+      updateStats();
+      var prog = Math.min(100, ta.value.replace(/\r/g, '').length / PASSAGE.length * 100);
+      if (prog >= 100) toast('You have typed the full passage. You may submit or keep correcting.', 'good');
+    });
+    ['paste', 'copy', 'cut', 'drop'].forEach(function (ev) {
+      ta.addEventListener(ev, function (e) {
+        e.preventDefault();
+        toast('Copy / Paste is not allowed in the typing test.', 'bad');
+      });
+    });
+    ta.addEventListener('keydown', function (e) {
+      if (state.finished) return;
+      if (e.key === 'Tab') { e.preventDefault(); toast('Tab key is not used in this test.', 'bad'); }
+      if ((e.ctrlKey || e.metaKey) && ['v', 'x', 'c', 'p', 's'].indexOf(e.key.toLowerCase()) >= 0) {
+        e.preventDefault(); toast('Keyboard shortcut blocked.', 'bad');
+      }
+    });
+    ['contextmenu', 'selectstart', 'dragstart'].forEach(function (ev) {
+      $('#passage').addEventListener(ev, function (e) { e.preventDefault(); return false; });
+    });
+  }
+
+  function guardFocus() {
+    window.addEventListener('blur', function () {
+      if (state.finished) return;
+      state.focusLoss++;
+      var fw = $('#focusWarn');
+      fw.textContent = '⚠️ You left the test window ' + state.focusLoss + ' time(s). This is recorded in your result. Tab switching / copying is not allowed.';
+      fw.classList.add('show');
+    });
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  5.  FINISH + SCORING
+   * ------------------------------------------------------------------ */
+  function finishTest(reason) {
+    if (state.finished) return;
+    state.finished = true;
+    clearInterval(state.timer);
+    state.timer = null;
+
+    var ta = $('#typedInput');
+    var info = typedInfo();
+    var elapsedSec = Math.min(state.totalMs / 1000, (Date.now() - state.startTime) / 1000);
+    if (reason === 'time') elapsedSec = state.totalMs / 1000;
+    elapsedSec = Math.max(elapsedSec, 1);
+
+    var sc = TypingEngine.scoreTyping(info.text, PASSAGE);
+    state.score = sc;
+
+    var c = state.cand;
+    var std = c.isPH ? STD.ph : STD.normal;
+    var marks = sc.marks;
+    var speedOK = sc.typedWords >= std.minWords;
+    var marksOK = marks >= std.minMarks;
+    var qualified = speedOK && marksOK;
+    var reasons = [];
+    if (!speedOK) reasons.push('Typed ' + sc.typedWords.toFixed(2) + ' words — minimum ' + std.minWords + ' words required in 10 minutes.');
+    if (!marksOK) reasons.push('Marks of accuracy ' + marks.toFixed(2) + ' — minimum ' + std.minMarks + ' marks required.');
+    if (qualified) reasons.push('Speed and marks both above the qualifying standard.');
+
+    var wpm = sc.typedWords / (elapsedSec / 60);
+
+    var rec = {
+      id: 'CMP-' + state.startTime + '-' + Math.random().toString(36).slice(2, 6).toUpperCase(),
+      ts: new Date().toISOString(),
+      tsLocal: stamp(new Date()),
+      name: c.name, phone: c.phone, category: c.category, isPH: c.isPH, lang: c.lang,
+      durationMin: TEST_MINUTES,
+      elapsedSec: Math.round(elapsedSec),
+      typedWords: r2(sc.typedWords),
+      wpm: r2(wpm),
+      charsTyped: info.chars,
+      major: sc.major, minor: sc.minor,
+      marks: r2(marks),
+      minWords: std.minWords, minMarks: std.minMarks,
+      speedOK: speedOK, marksOK: marksOK, qualified: qualified,
+      reason: reasons.join(' '),
+      focusLoss: state.focusLoss,
+      majorDetails: sc.detail.filter(function (d) { return d.major.length; }).map(function (d) { return (d.wordNo ? 'W' + d.wordNo + ' ' : 'EXTRA ') + d.typed + ' ⇒ ' + d.major.join(' / '); }).join(' | '),
+      minorDetails: sc.detail.filter(function (d) { return !d.major.length && d.minor.length; }).map(function (d) { return 'W' + d.wordNo + ' ' + d.typed + ' ⇒ ' + d.minor.join(' / '); }).join(' | '),
+      sync: 'local', device: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? 'Mobile' : 'Desktop'
+    };
+    state.record = rec;
+
+    var all = records(); all.push(rec); saveRecords(all);
+
+    ta.disabled = true;
+    ta.classList.add('done');
+    try { if (document.fullscreenElement) document.exitFullscreen(); } catch (e) { }
+
+    renderResult(rec);
+    show('result');
+    pushToSheet(rec, true);
+    toast(reason === 'time' ? 'Time over — test submitted automatically.' : 'Test submitted successfully.', 'good');
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  6.  RESULT SCREEN
+   * ------------------------------------------------------------------ */
+  var RULE_NAMES = {
+    '5a': 'Rule 5(a) — omission of word / insertion of foreign word (Major)',
+    '5b': 'Rule 5(b) — punctuation omitted or incorrect (Minor)',
+    '5c': 'Rule 5(c) — spelling mistake (Major)',
+    '5d': 'Rule 5(d) — punctuation inserted in a word (Major)',
+    '5e': 'Rule 5(e) — capital / small letter mistake (Minor)'
+  };
+  function ruleOf(reason) {
+    if (/Omission of word|foreign|extra word|without a space/.test(reason)) return '5a';
+    if (/Spelling/.test(reason)) return '5c';
+    if (/inserted at the beginning/.test(reason)) return '5d';
+    if (/Omission of punctuation|Incorrect punctuation|exactly as per/.test(reason)) return '5b';
+    if (/Small letter/.test(reason)) return '5e';
+    return '5b';
+  }
+  function ruleTally(sc) {
+    var t = { '5a': 0, '5b': 0, '5c': 0, '5d': 0, '5e': 0 };
+    sc.detail.forEach(function (d) {
+      /* a word is charged only once — as major if it has any major error, else as minor.
+         Rule codes come straight from the engine, so the tally always adds up to
+         major + minor and matches the headline figures. */
+      var isMajor = d.major.length > 0;
+      var cats = isMajor ? (d.majorCats && d.majorCats.length ? d.majorCats : d.major.map(ruleOf))
+                         : (d.minorCats && d.minorCats.length ? d.minorCats : d.minor.map(ruleOf));
+      var seen = {};
+      cats.forEach(function (k) { if (!seen[k]) { seen[k] = 1; t[k]++; } });
+    });
+    return t;
+  }
+
+  function renderResult(rec) {
+    var sc = state.score;
+    var std = { minWords: rec.minWords, minMarks: rec.minMarks };
+    var tally = ruleTally(sc);
+    var typedWords = rec.typedWords, marks = rec.marks;
+
+    var h = '';
+    h += '<div class="print-head"><h1>Career Maths Plus — Typing Test Result</h1>' +
+      '<div class="s">Sanket Chowdhury • Offline Math &amp; Reasoning Batch, Chakdaha, Nadia • Call / WhatsApp 8001514969</div></div>';
+
+    /* verdict */
+    h += '<div class="verdict ' + (rec.qualified ? 'q' : 'dq') + '">' +
+      '<h2>' + (rec.qualified ? '✅ QUALIFIED' : '❌ DISQUALIFIED') + '</h2>' +
+      '<p>' + esc(rec.reason) + '</p>' +
+      '<p style="font-size:14px">' + esc(rec.name) + ' • ' + esc(rec.category) + ' • ' + maskPhone(rec.phone) +
+      ' • ' + esc(rec.tsLocal) + ' • Test: English (10 minutes)</p></div>';
+
+    /* kpis */
+    h += '<div class="kpis">' +
+      kpi('Typed Words (Keys ÷ 5)', typedWords.toFixed(2), 'a') +
+      kpi('Typing Speed (WPM)', Math.round(rec.wpm), 'g') +
+      kpi('Major Mistakes', sc.major, 'r') +
+      kpi('Minor Mistakes', sc.minor, 'r') +
+      kpi('Marks of Accuracy', marks.toFixed(2), rec.qualified ? 'g' : 'r') +
+      kpi('Qualifying Marks', std.minMarks, '') +
+      kpi('Minimum Words Needed', std.minWords, '') +
+      kpi('Time Used', mmss(rec.elapsedSec), '') +
+      '</div>';
+
+    /* calculation */
+    h += '<div class="card mt18"><h2>🧮 Marks of Accuracy Calculation</h2>' +
+      '<div class="calc"><b>Marks = Typed Words − (0.33 × Major) − (0.15 × Minor)</b><br>' +
+      '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ' + typedWords.toFixed(2) + ' − (0.33 × ' + sc.major + ') − (0.15 × ' + sc.minor + ')<br>' +
+      '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ' + typedWords.toFixed(2) + ' − ' + (0.33 * sc.major).toFixed(2) + ' − ' + (0.15 * sc.minor).toFixed(2) + '<br>' +
+      '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <b>' + marks.toFixed(2) + ' marks</b></div>' +
+      '<table class="plain mt12"><tr><th>Qualifying criterion</th><th>Required</th><th>Your score</th><th>Status</th></tr>' +
+      '<tr><td>Minimum typing speed (words in 10 minutes)</td><td>' + std.minWords + '</td><td>' + typedWords.toFixed(2) + '</td><td>' + yn(rec.speedOK) + '</td></tr>' +
+      '<tr><td>Marks of accuracy</td><td>' + std.minMarks + '</td><td>' + marks.toFixed(2) + '</td><td>' + yn(rec.marksOK) + '</td></tr>' +
+      '<tr><td>Final result</td><td>Both criteria</td><td colspan="2">' + (rec.qualified ? '<b style="color:#147a45">QUALIFIED</b>' : '<b style="color:#b3261e">DISQUALIFIED</b>') + '</td></tr>' +
+      '</table>' +
+      (rec.focusLoss ? '<div class="note small">⚠️ Test window was left ' + rec.focusLoss + ' time(s) during the test (recorded for the examiner).</div>' : '') +
+      '</div>';
+
+    /* mistake summary by rule */
+    h += '<div class="card"><h2>📋 Mistake Summary (as per instructions)</h2><table class="plain">' +
+      '<tr><th>Type of mistake</th><th>Count</th></tr>' +
+      '<tr><td>' + RULE_NAMES['5a'] + '</td><td><b>' + tally['5a'] + '</b></td></tr>' +
+      '<tr><td>' + RULE_NAMES['5c'] + '</td><td><b>' + tally['5c'] + '</b></td></tr>' +
+      '<tr><td>' + RULE_NAMES['5d'] + '</td><td><b>' + tally['5d'] + '</b></td></tr>' +
+      '<tr><td>' + RULE_NAMES['5b'] + '</td><td><b>' + tally['5b'] + '</b></td></tr>' +
+      '<tr><td>' + RULE_NAMES['5e'] + '</td><td><b>' + tally['5e'] + '</b></td></tr>' +
+      '<tr><td><b>Grand total (Major + Minor)</b></td><td><b>' + (sc.major + sc.minor) + ' mistake(s)</b></td></tr>' +
+      '<tr><td><b>Total Major / Minor mistakes</b></td><td><b>' + sc.major + ' major &nbsp;|&nbsp; ' + sc.minor + ' minor</b></td></tr>' +
+      '</table><div class="note small">The un-typed / remaining part of the passage is <b>not</b> counted as any mistake. ' +
+      (sc.totalPassageWords - Math.max(0, countTouched(sc))) + ' word(s) of the passage were left un-attempted and carry <b>zero</b> penalty.</div></div>';
+
+    /* mistake word lists */
+    var majorD = sc.detail.filter(function (d) { return d.major.length; });
+    var minorD = sc.detail.filter(function (d) { return !d.major.length && d.minor.length; });
+
+    h += '<div class="grid two"><div class="card"><h2>🔴 Major Mistakes (' + sc.major + ')</h2>';
+    if (!majorD.length) h += '<p class="muted">No major mistake — excellent accuracy! 🎉</p>';
+    else {
+      majorD.forEach(function (d) {
+        h += '<div class="mistake"><div class="n">' + (d.wordNo ? 'W' + d.wordNo : '＋') + '</div><div>' +
+          '<div class="w1">Passage: <code>' + esc(d.orig) + '</code> &nbsp;→&nbsp; You typed: <code>' + esc(d.typed) + '</code></div>' +
+          '<div class="small" style="color:#b3261e">' + esc(d.major.join(' • ')) + '</div></div></div>';
+      });
+    }
+    h += '</div><div class="card"><h2>🟠 Minor Mistakes (' + sc.minor + ')</h2>';
+    if (!minorD.length) h += '<p class="muted">No minor mistake. 🎉</p>';
+    else {
+      minorD.forEach(function (d) {
+        h += '<div class="mistake minor"><div class="n">W' + d.wordNo + '</div><div>' +
+          '<div class="w1">Passage: <code>' + esc(d.orig) + '</code> &nbsp;→&nbsp; You typed: <code>' + esc(d.typed) + '</code></div>' +
+          '<div class="small" style="color:#a86a08">' + esc(d.minor.join(' • ')) + '</div></div></div>';
+      });
+    }
+    h += '</div></div>';
+
+    /* highlighted passage */
+    h += '<div class="card"><h2>🖍️ Your Typed Passage — Mistake Positions</h2>' +
+      '<div class="legend"><span><i style="background:#fff;border:2px solid #147a45"></i>Correct</span>' +
+      '<span><i style="background:#fdeceb;border:2px solid #b3261e"></i>Major mistake</span>' +
+      '<span><i style="background:#fdf4e3;border:2px dotted #a86a08"></i>Minor mistake</span>' +
+      '<span><i style="background:#f0f2f6;border:2px solid #97a3b8"></i>Not attempted (no penalty)</span>' +
+      '<span><i style="background:#fde3e1;border:3px double #b3261e"></i>Two words typed without space</span></div>' +
+      '<div class="passage" id="resPassage" style="max-height:none;margin-top:10px"></div>' +
+      (sc.extras.length ? '<div class="note small">Extra / foreign word(s) typed which are not in the passage: <code>' + esc(sc.extras.join('</code>, <code>')) + '</code></div>' : '') +
+      '</div>';
+
+    /* word by word table */
+    h += '<div class="card"><h2>🔎 Word-by-Word Evaluation</h2>' +
+      '<div class="filters no-print">' +
+      '<button class="on" data-f="all">All words</button>' +
+      '<button data-f="major">Only major (' + sc.major + ')</button>' +
+      '<button data-f="minor">Only minor (' + sc.minor + ')</button>' +
+      '<button data-f="bad">All mistakes</button>' +
+      '<button data-f="untyped">Not attempted</button></div>' +
+      '<div class="tblwrap"><table class="data" id="wordTable"><thead><tr><th>#</th><th>Passage word</th><th>You typed</th><th>Status</th><th>Remark</th></tr></thead><tbody></tbody></table></div></div>';
+
+    /* actions */
+    h += '<div class="card no-print"><h2>⬇️ Next Step</h2><div class="row">' +
+      '<button class="btn gold" id="btnPrint">🖨 Save / Print Result (PDF)</button>' +
+      '<button class="btn ghost" id="btnAgain">🔁 Take Test Again</button>' +
+      '<button class="btn ghost" id="btnGoBoard">🏆 Leaderboard</button>' +
+      '<a class="btn green" id="btnWa" target="_blank" rel="noopener">💬 Send result to Career Maths Plus</a>' +
+      '<button class="btn ghost" id="btnCopyRes">📋 Copy Result Text</button>' +
+      (!cfg().webApp ? '' : isDevUrl(cfg().webApp)
+        ? '<div class="note small" style="background:#fdeceb;border-color:#b3261e">⚠️ This page is using the private <b>/dev</b> test link of the Google script. Candidates’ results cannot be uploaded with it — replace it with the <b>/exec</b> link in the settings block at the top of this file.</div>' : '') +
+      '</div><div class="small muted mt8" id="syncStatus">Result saved on this device. ' + (cfg().webApp ? 'Uploading to Google Sheet…' : 'Uploading to the Google Sheet is not configured yet — the owner can paste the Apps Script link in the settings block at the top of this file.') + '</div></div>';
+
+    $('#resultRoot').innerHTML = h;
+
+    /* fill passage + table + handlers */
+    var rp = $('#resPassage');
+    var ph = '';
+    for (var i = 0; i < state.words.length; i++) {
+      var wt = sc.wordTypes[i] || { status: 'untyped' };
+      var cls = 'w';
+      var title = 'Word ' + (i + 1);
+      if (wt.status === 'ok') cls += ' ok';
+      else if (wt.status === 'major') cls += ' major';
+      else if (wt.status === 'minor') cls += ' minor';
+      else if (wt.status === 'untyped') cls += ' untyped';
+      if (wt.status === 'major' && /without a space/.test((wt.reasons || []).join(' '))) cls += ' joined';
+      if (wt.typed && wt.typed.length) title += ' — you typed: ' + wt.typed[0];
+      if (wt.reasons && wt.reasons.length) title += ' — ' + wt.reasons.join(' | ');
+      ph += '<span class="' + cls + '" title="' + esc(title) + '">' + esc(state.words[i]) + ' </span>';
+    }
+    rp.innerHTML = ph;
+
+    var tb = $('#wordTable tbody');
+    var rows = '';
+    for (var j = 0; j < state.words.length; j++) {
+      var t2 = sc.wordTypes[j] || { status: 'untyped', reasons: [] };
+      var st = t2.status, lbl, rk;
+      if (st === 'ok') { lbl = 'Correct'; rk = '—'; }
+      else if (st === 'major') { lbl = 'MAJOR MISTAKE'; rk = t2.reasons.join(' • '); }
+      else if (st === 'minor') { lbl = 'MINOR MISTAKE'; rk = t2.reasons.join(' • '); }
+      else { lbl = 'Not attempted'; rk = 'No penalty (un-typed words are never counted)'; }
+      rows += '<tr data-st="' + st + '"><td>' + (j + 1) + '</td><td>' + esc(state.words[j]) + '</td><td>' +
+        esc(t2.typed && t2.typed.length ? t2.typed[0] : '—') + '</td><td class="st-' + (st === 'ok' ? 'ok' : st === 'major' ? 'major' : st === 'minor' ? 'minor' : 'untyped') + '">' +
+        lbl + '</td><td class="small">' + esc(rk) + '</td></tr>';
+    }
+    sc.detail.filter(function (d) { return !d.wordNo; }).forEach(function (d, k) {
+      rows += '<tr data-st="extra"><td>＋' + (k + 1) + '</td><td class="muted">(not in passage)</td><td>' + esc(d.typed) +
+        '</td><td class="st-major">EXTRA WORD</td><td class="small">' + esc(d.major.join(' • ')) + '</td></tr>';
+    });
+    tb.innerHTML = rows;
+
+    $$('.filters button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        $$('.filters button').forEach(function (x) { x.classList.remove('on'); });
+        b.classList.add('on');
+        var f = b.getAttribute('data-f');
+        $$('#wordTable tbody tr').forEach(function (tr) {
+          var st = tr.getAttribute('data-st');
+          var show = f === 'all' || st === f || (f === 'bad' && (st === 'major' || st === 'minor' || st === 'extra'));
+          tr.style.display = show ? '' : 'none';
+        });
+      });
+    });
+
+    $('#btnPrint').addEventListener('click', function () { window.print(); });
+    $('#btnAgain').addEventListener('click', function () { show('home'); fillLastCandidate(); });
+    $('#btnGoBoard').addEventListener('click', function () { show('board'); });
+    $('#btnWa').href = 'https://wa.me/918001514969?text=' + encodeURIComponent(waText(rec));
+    $('#btnCopyRes').addEventListener('click', function () { copyText(resText(rec), 'Result copied — you can paste it in WhatsApp.'); });
+  }
+
+  function countTouched(sc) {
+    var n = 0;
+    sc.wordTypes.forEach(function (w) { if (w.status !== 'untyped') n++; });
+    return n;
+  }
+  function kpi(k, v, cls) {
+    return '<div class="kpi ' + (cls || '') + '"><div class="k">' + k + '</div><div class="v">' + v + '</div></div>';
+  }
+  function yn(b) { return b ? '<b style="color:#147a45">✔ Passed</b>' : '<b style="color:#b3261e">✘ Failed</b>'; }
+  function resText(r) {
+    return 'CAREER MATHS PLUS — TYPING TEST RESULT\n' +
+      'Name: ' + r.name + '\nPhone: ' + r.phone + '\nCategory: ' + r.category + '\n' +
+      'Date: ' + r.tsLocal + '\nTyped Words (Keys/5): ' + r.typedWords.toFixed(2) + '\n' +
+      'Speed: ' + Math.round(r.wpm) + ' WPM\nMajor: ' + r.major + '  Minor: ' + r.minor + '\n' +
+      'Marks of Accuracy: ' + r.marks.toFixed(2) + '\nResult: ' + (r.qualified ? 'QUALIFIED' : 'DISQUALIFIED') +
+      '\n(' + r.reason + ')';
+  }
+  function waText(r) {
+    return 'Sir, I have completed the Career Maths Plus typing test.\n\n' + resText(r) +
+      '\n\nPlease guide me for the next step. — ' + r.name + ' (' + r.phone + ')';
+  }
+
+  function copyText(txt, msg) {
+    var done = function () { toast(msg || 'Copied.', 'good'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(done, function () { fallback(); });
+    } else fallback();
+    function fallback() {
+      try {
+        var ta = document.createElement('textarea');
+        ta.value = txt; ta.style.position = 'fixed'; ta.style.left = '-9999px';
+        document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+        document.body.removeChild(ta); done();
+      } catch (e) { toast('Could not copy automatically — please select and copy manually.', 'bad'); }
+    }
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  7.  GOOGLE SHEET  (write + read)
+   * ------------------------------------------------------------------ */
+  function sheetCsvUrl(c) {
+    if (!c.sheetId) return '';
+    return 'https://docs.google.com/spreadsheets/d/' + encodeURIComponent(c.sheetId) +
+      '/gviz/tq?tqx=out:csv&sheet=' + encodeURIComponent(c.tab || 'Responses');
+  }
+  function fetchWithTimeout(url, opts, ms) {
+    if (typeof fetch !== 'function') return Promise.reject(new Error('fetch unavailable'));
+    return new Promise(function (res, rej) {
+      var to = setTimeout(function () { rej(new Error('timeout')); }, ms || 15000);
+      fetch(url, opts).then(function (r) { clearTimeout(to); res(r); }, function (e) { clearTimeout(to); rej(e); });
+    });
+  }
+
+  /* JSONP: some browsers block reading a cross-origin response — this never does */
+  function jsonpLoad(url, timeoutMs) {
+    return new Promise(function (resolve, reject) {
+      var name = '__cmpJsonp' + Math.floor(Math.random() * 1e9);
+      var script = document.createElement('script');
+      var done = false;
+      var to = setTimeout(function () { finish(); reject(new Error('jsonp timeout')); }, timeoutMs || 15000);
+      function finish() {
+        if (done) return; done = true;
+        clearTimeout(to);
+        try { delete window[name]; } catch (e) { window[name] = undefined; }
+        if (script.parentNode) script.parentNode.removeChild(script);
+      }
+      window[name] = function (data) { finish(); resolve(data); };
+      script.onerror = function () { finish(); reject(new Error('jsonp load error')); };
+      script.src = url + (url.indexOf('?') < 0 ? '?' : '&') + 'callback=' + name;
+      document.head.appendChild(script);
+    });
+  }
+
+  /* the /dev link of Apps Script only works for the owner's own Google login —
+     candidates would land on a sign-in page, so warn clearly */
+  function isDevUrl(u) { return /\/dev\/?$/i.test(String(u || '')); }
+
+  function pushToSheet(rec, notify) {
+    var c = cfg();
+    if (!c.webApp) { setSync('local'); if (notify) setSyncNote('Saved on this device only (no Google Sheet configured).'); return Promise.resolve('local'); }
+    var body = JSON.stringify({ token: c.token, record: rec });
+    setSync('pending');
+    return fetchWithTimeout(c.webApp, {
+      method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: body, redirect: 'follow'
+    }, 20000).then(function (r) {
+      return r.text().then(function (t) {
+        var ok = true; try { ok = JSON.parse(t).ok !== false; } catch (e) { }
+        if (!ok) throw new Error('server said no');
+        rec.sync = 'sent'; updateRecord(rec);
+        setSync('sent'); if (notify) setSyncNote('✅ Saved to the Career Maths Plus Google Sheet.');
+        return 'sent';
+      });
+    }).catch(function () {
+      /* fall back to a no-cors post — the sheet still receives the data */
+      return fetchWithTimeout(c.webApp, {
+        method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: body
+      }, 20000).then(function () {
+        rec.sync = 'queued'; updateRecord(rec);
+        setSync('queued'); if (notify) setSyncNote('📤 Sent to the Google Sheet (unverified — will be confirmed on the next leaderboard refresh).');
+        return 'queued';
+      }).catch(function () {
+        rec.sync = 'failed'; updateRecord(rec);
+        setSync('failed'); if (notify) setSyncNote('⚠️ Could not reach the Google Sheet right now. Your result is safely stored on this device and will be uploaded automatically the next time this page is opened with internet.');
+        return 'failed';
+      });
+    });
+  }
+  function setSync(s) { window.__cmpSync = s; }
+  function setSyncNote(t) {
+    var el = $('#syncStatus'); if (!el) return;
+    el.innerHTML = t;
+    var badge = { sent: 'q', queued: 'g', failed: 'dq', pending: 'demo', local: 'demo' }[window.__cmpSync] || 'demo';
+    var word = { sent: 'SAVED IN SHEET', queued: 'SENT (unverified)', failed: 'PENDING SYNC', pending: 'UPLOADING', local: 'DEVICE ONLY' }[window.__cmpSync] || '';
+    el.innerHTML = '<span class="pill ' + badge + '">' + word + '</span> ' + t;
+  }
+  function updateRecord(rec) {
+    var all = records();
+    for (var i = 0; i < all.length; i++) if (all[i].id === rec.id) { all[i] = rec; break; }
+    saveRecords(all);
+  }
+
+  function csvParse(text) {
+    var rows = [], row = [], cur = '', q = false, i;
+    for (i = 0; i < text.length; i++) {
+      var ch = text[i];
+      if (q) {
+        if (ch === '"') { if (text[i + 1] === '"') { cur += '"'; i++; } else q = false; }
+        else cur += ch;
+      } else {
+        if (ch === '"') q = true;
+        else if (ch === ',') { row.push(cur); cur = ''; }
+        else if (ch === '\n') { row.push(cur); rows.push(row); row = []; cur = ''; }
+        else if (ch !== '\r') cur += ch;
+      }
+    }
+    if (cur.length || row.length) { row.push(cur); rows.push(row); }
+    return rows.filter(function (r) { return r.join('').trim().length; });
+  }
+  function normKey(k) { return String(k || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
+
+  function rowToRecord(o) {
+    var g = function () {
+      for (var i = 0; i < arguments.length; i++) {
+        var k = normKey(arguments[i]);
+        for (var key in o) if (normKey(key) === k && String(o[key]).trim() !== '') return o[key];
+      }
+      return '';
+    };
+    var cat = String(g('Category') || 'General / UR');
+    var ph = !!isPH(cat);
+    var minWords = num(g('Min Words Required')) || (ph ? STD.ph.minWords : STD.normal.minWords);
+    var minMarks = num(g('Qualifying Marks')) || (ph ? STD.ph.minMarks : STD.normal.minMarks);
+    var typed = num(g('Typed Words (Keys/5)', 'Typed Words'));
+    var marks = num(g('Marks'));
+    var speedOK = typed >= minWords, marksOK = marks >= minMarks;
+    return {
+      id: String(g('Record ID', 'id') || ''),
+      name: String(g('Name') || '—'),
+      phone: String(g('Phone') || ''),
+      category: cat,
+      typedWords: typed,
+      wpm: num(g('Speed (WPM)', 'WPM')) || (typed / (TEST_MINUTES)),
+      major: num(g('Major')),
+      minor: num(g('Minor')),
+      marks: marks,
+      minWords: minWords, minMarks: minMarks,
+      speedOK: speedOK, marksOK: marksOK,
+      qualified: speedOK && marksOK,
+      tsLocal: String(g('Timestamp', 'tsLocal') || ''),
+      source: 'sheet'
+    };
+  }
+
+  function fetchSheetRows(force) {
+    var c = cfg();
+    if (c.source === 'local') return Promise.resolve({ rows: [], how: 'local' });
+    if (!c.webApp && !c.sheetId) return Promise.resolve({ rows: [], how: 'none' });
+
+    var jsonUrl = c.webApp ? c.webApp + (c.webApp.indexOf('?') < 0 ? '?action=json' : '&action=json') : '';
+
+    /* 1) plain fetch (?action=json)  →  2) JSONP (works even when the browser blocks
+       cross-origin reads)  →  3) the sheet's public CSV, if a Sheet ID is given.
+       Each step is built lazily so a step that is never needed cannot fail. */
+    function stepJson() {
+      if (!jsonUrl) return Promise.reject(new Error('no apps script url'));
+      return fetchWithTimeout(jsonUrl, {}, 15000)
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          if (!j || !j.rows) throw new Error('bad payload');
+          return j.rows.map(rowToRecord);
+        });
+    }
+    function stepJsonp() {
+      if (!jsonUrl) return Promise.reject(new Error('no apps script url'));
+      return jsonpLoad(jsonUrl, 15000).then(function (j) { return ((j && j.rows) || []).map(rowToRecord); });
+    }
+    function stepCsv() {
+      if (!c.sheetId) return Promise.reject(new Error('no sheet id'));
+      return fetchWithTimeout(sheetCsvUrl(c), {}, 15000)
+        .then(function (r) { return r.text(); })
+        .then(function (t) {
+          var rows = csvParse(t);
+          if (rows.length < 2) return [];
+          var head = rows[0];
+          return rows.slice(1).map(function (r) {
+            var o = {};
+            head.forEach(function (h2, i) { o[h2] = r[i]; });
+            return rowToRecord(o);
+          });
+        });
+    }
+
+    return stepJson()
+      .then(function (rows) { return { rows: rows, how: 'sheet' }; },
+            function () { return stepJsonp(); })
+      .then(function (v) { return v && v.rows ? v : { rows: v, how: 'sheet' }; },
+            function () { return stepCsv(); })
+      .then(function (v) { return v && v.rows ? v : { rows: v, how: 'sheet' }; },
+            function () { return { rows: [], how: 'fail' }; });
+  }
+
+
+  /* ------------------------------------------------------------------ *
+   *  8.  LEADERBOARD
+   * ------------------------------------------------------------------ */
+  function sortBoard(rows) {
+    return rows.slice().sort(function (a, b) {
+      if (a.qualified !== b.qualified) return a.qualified ? -1 : 1;   /* qualified always on top */
+      if (b.wpm !== a.wpm) return b.wpm - a.wpm;
+      if (b.marks !== a.marks) return b.marks - a.marks;
+      return String(a.name).localeCompare(String(b.name));
+    });
+  }
+
+  function mergedRows(sheetRows, how) {
+    var local = records().map(function (r) {
+      return {
+        id: r.id, name: r.name, phone: r.phone, category: r.category,
+        typedWords: r.typedWords, wpm: r.wpm, major: r.major, minor: r.minor, marks: r.marks,
+        minWords: r.minWords, minMarks: r.minMarks,
+        speedOK: r.speedOK, marksOK: r.marksOK, qualified: r.qualified, tsLocal: r.tsLocal,
+        source: r.sync === 'sent' ? 'sheet' : 'local'
+      };
+    });
+    var seen = {}, out = [];
+    sheetRows.forEach(function (r) { if (r.id) seen[r.id] = 1; out.push(r); });
+    if (how !== 'sheet') {
+      local.forEach(function (r) {
+        if (r.id && seen[r.id]) return;
+        var dup = out.some(function (s) { return s.name === r.name && s.phone === r.phone && s.tsLocal === r.tsLocal; });
+        if (!dup) out.push(r);
+      });
+    }
+    return out;
+  }
+
+  /* once a result is seen in the sheet, mark it as confirmed on this device
+     (so it is never uploaded a second time) */
+  function markVerified(sheetRows) {
+    var ids = {};
+    sheetRows.forEach(function (r) { if (r.id) ids[String(r.id)] = 1; });
+    var all = records(), changed = false;
+    all.forEach(function (r) {
+      if (r.sync !== 'sent' && ids[String(r.id)]) { r.sync = 'sent'; changed = true; }
+    });
+    if (changed) saveRecords(all);
+  }
+
+  function renderBoard() {
+    var c = cfg();
+    var st = $('#boardStatus'), src = $('#boardSource'), tb = $('#boardTable');
+    st.innerHTML = '⏳ Loading leaderboard…';
+    fetchSheetRows().then(function (res) {
+      var how = res.how, rows = mergedRows(res.rows, how);
+      if (how === 'sheet' && res.rows.length) markVerified(res.rows);
+      if (how !== 'sheet') {
+        /* Google Sheet not connected yet → show sample rows so the owner can see the layout */
+        var demos = DEMO_ROWS.map(function (d) { var r = rowToRecord(d); r.source = 'demo'; return r; });
+        rows.forEach(function (r) { r.source = r.source === 'sheet' ? 'sheet' : 'local'; });
+        rows = rows.concat(demos);
+        if (!res.rows.length) how = 'demo';
+      }
+      writeLS(LS.cache, { ts: Date.now(), rows: rows, how: how });
+      drawBoard(rows, how);
+    }).catch(function () {
+      var cache = readLS(LS.cache, null);
+      var rows = cache ? cache.rows : DEMO_ROWS.map(function (d) { return rowToRecord(d); });
+      drawBoard(rows, cache ? 'cache' : 'demo');
+    });
+  }
+
+  var __boardCache = null;
+  function drawBoard(allRows, how) {
+    __boardCache = allRows; window.__boardHow = how;
+    var c = cfg();
+    var rows = sortBoard(allRows);
+    var q = ($('#boardSearch').value || '').trim().toLowerCase();
+    var cat = $('#boardCat').value;
+    if (q) rows = rows.filter(function (r) { return (r.name || '').toLowerCase().indexOf(q) >= 0 || String(r.phone || '').indexOf(q.replace(/\D/g, '')) >= 0; });
+    if (cat) rows = rows.filter(function (r) { return r.category === cat; });
+
+    var meId = state.record ? state.record.id : '';
+    var mePhone = state.record ? state.record.phone : '';
+
+    var tb = $('#boardTable');
+    var h = '<thead><tr><th style="text-align:center">Rank</th><th>Candidate</th><th>Category</th>' +
+      '<th>Speed (WPM)</th><th>Words</th><th>Marks</th><th>Major</th><th>Minor</th><th>Result</th><th>Date</th></tr></thead><tbody>';
+
+    var qList = rows.filter(function (r) { return r.qualified; });
+    var dList = rows.filter(function (r) { return !r.qualified; });
+    var tot = qList.length + dList.length;
+    if (!tot) h += '<tr><td colspan="10" class="center muted" style="padding:22px">No record found. ' + (state.record ? '' : 'Be the first one to take the test!') + '</td></tr>';
+
+    if (qList.length) {
+      h += '<tr class="seprow"><td colspan="10">✅ Qualified candidates — ranked by typing speed (WPM)</td></tr>';
+      qList.forEach(function (r, i) { h += boardRow(r, i + 1, true, meId, mePhone, c.showPhone); });
+    }
+    if (dList.length) {
+      h += '<tr class="seprow"><td colspan="10">❌ Disqualified candidates — shown below all qualified candidates (higher WPM does not move them up)</td></tr>';
+      dList.forEach(function (r) { h += boardRow(r, '—', false, meId, mePhone, c.showPhone); });
+    }
+    h += '</tbody>';
+    tb.innerHTML = h;
+
+    var howTxt = {
+      sheet: '🟢 Live Google Sheet data', local: '⚪ This device only', demo: '🟡 DEMO data (Google Sheet not connected yet)',
+      cache: '🟠 Offline copy (last loaded data)', fail: '🔴 Google Sheet unreachable — showing device data', none: '⚪ Google Sheet not connected yet'
+    }[how] || how;
+
+    var c2 = cfg();
+    var notes = '';
+    if (how !== 'sheet') {
+      notes += '<div class="note small" style="margin-top:6px">🟡 Rows marked <span class="pill demo">DEMO</span> are sample entries (they only show how the ranking works: qualified candidates on top by WPM, disqualified below). ' +
+        'They are replaced automatically by the real, permanent candidates of the Google Sheet as soon as it is connected.</div>';
+    }
+    if (isDevUrl(c2.webApp)) {
+      notes += '<div class="note small" style="margin-top:6px;background:#fdeceb;border-color:#b3261e">⚠️ The link saved in the settings block ends with <b>/dev</b> — that is the private test link and it works only for the owner’s own Google login, so candidates’ results will NOT be saved. Replace it with the <b>/exec</b> link (Apps Script → Deploy → New deployment → Web app → Who has access: <b>Anyone</b>).</div>';
+    }
+
+    var pending = records().filter(function (r) { return r.sync !== 'sent'; }).length;
+    $('#boardStatus').innerHTML = '<b>' + tot + '</b> candidate(s) listed • ' + esc(howTxt) +
+      (state.record ? ' • your row is highlighted in gold' : '') +
+      (pending ? ' • ' + pending + ' local result(s) not confirmed in the sheet' : '') + notes;
+    $('#boardSource').innerHTML = 'Source: ' + (c2.sheetId ? 'Google Sheet (' + esc(c2.tab || 'Responses') + ')'
+      : (c2.webApp ? 'Career Maths Plus Google Sheet (via Apps Script)' : 'this device'));
+  }
+
+  function boardRow(r, rank, qual, meId, mePhone, showPhone) {
+    var medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
+    var isMe = (meId && r.id === meId) || (!meId && mePhone && r.phone === mePhone);
+    return '<tr class="' + (qual ? 'rk-q' : 'rk-dq') + (isMe ? ' me' : '') + '">' +
+      '<td class="rk">' + (medal ? '<span class="medal">' + medal + '</span>' : '') + (rank === '—' ? '—' : rank) + '</td>' +
+      '<td><span class="nm">' + esc(r.name) + (isMe ? ' <span class="pill g">You</span>' : '') + '</span><br><span class="ph">' +
+      esc(showPhone ? (r.phone || '') : maskPhone(r.phone)) + '</span></td>' +
+      '<td class="small">' + esc(r.category) + '</td>' +
+      '<td class="wpm">' + (Math.round(r.wpm * 100) / 100) + '</td>' +
+      '<td>' + (Math.round((r.typedWords || 0) * 100) / 100) + '</td>' +
+      '<td>' + (Math.round((r.marks || 0) * 100) / 100) + '</td>' +
+      '<td class="st-major">' + r.major + '</td>' +
+      '<td class="st-minor">' + r.minor + '</td>' +
+      '<td>' + (qual ? '<span class="pill q">QUALIFIED</span>' : '<span class="pill dq">DISQUALIFIED</span>') +
+      (r.source === 'local' ? '<br><span class="small muted">not yet in sheet</span>' : '') +
+      (r.source === 'demo' ? '<br><span class="pill demo">DEMO</span>' : '') + '</td>' +
+      '<td class="small">' + esc(r.tsLocal || '') + '</td></tr>';
+  }
+
+  /* ------------------------------------------------------------------ *
+   * 11.  WIRING
+   * ------------------------------------------------------------------ */
+  function wire() {
+    $('#footYear').textContent = new Date().getFullYear();
+
+    $('#regForm').addEventListener('submit', registerFormSubmit);
+    $('#btnPreviewBoard').addEventListener('click', function () { show('board'); });
+    $$('[data-nav]').forEach(function (el) {
+      el.addEventListener('click', function () { show(el.getAttribute('data-nav')); });
+    });
+
+    guardInput(); guardFocus();
+
+    $('#btnSubmit').addEventListener('click', function () {
+      if (state.finished) return;
+      if (confirm('Submit the test now? You will not be able to type any more characters.')) finishTest('submit');
+    });
+    $('#btnQuit').addEventListener('click', function () {
+      if (state.finished) return;
+      if (confirm('Quit the test? Your typed portion will still be evaluated.')) finishTest('quit');
+    });
+    $('#fontMinus').addEventListener('click', function () { setFont(-1); });
+    $('#fontPlus').addEventListener('click', function () { setFont(1); });
+
+    $('#boardSearch').addEventListener('input', debounce(function () { drawBoard(currentBoardRows(), window.__boardHow || 'cache'); }, 250));
+    $('#boardCat').addEventListener('change', function () { drawBoard(currentBoardRows(), window.__boardHow || 'cache'); });
+    $('#btnBoardRefresh').addEventListener('click', renderBoard);
+
+    window.addEventListener('beforeunload', function (e) {
+      if (!state.finished) { e.preventDefault(); e.returnValue = 'Your typing test is still running. Leave anyway?'; return e.returnValue; }
+    });
+  }
+
+  function currentBoardRows() {
+    if (__boardCache) return __boardCache;
+    var c = readLS(LS.cache, null);
+    if (c && c.rows) { __boardCache = c.rows; return c.rows; }
+    __boardCache = DEMO_ROWS.map(function (d) { return rowToRecord(d); });
+    return __boardCache;
+  }
+  function debounce(fn, ms) {
+    var t = null;
+    return function () { clearTimeout(t); var a = arguments, s = this; t = setTimeout(function () { fn.apply(s, a); }, ms); };
+  }
+  function setFont(dir) {
+    var p = $('#passage');
+    state.fontStep = Math.max(1, Math.min(4, state.fontStep + dir));
+    p.className = 'passage fs' + state.fontStep;
+    var px = { 1: '18px', 2: '22px', 3: '27px', 4: '31px' }[state.fontStep];
+    $('#fsLabel').textContent = px;
+  }
+
+  /* ------------------------------------------------------------------ *
+   * 12.  BOOT
+   * ------------------------------------------------------------------ */
+  /* if some earlier result never reached the Google Sheet, try again silently */
+  function retryPending() {
+    if (!cfg().webApp) return;
+    records().filter(function (r) { return r.sync !== 'sent'; }).slice(0, 10)
+      .forEach(function (r) { pushToSheet(r, false); });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    wire();
+    fillLastCandidate();
+    retryPending();
+  });
+  if (document.readyState !== 'loading') { try { wire(); fillLastCandidate(); } catch (e) { } }
+})();
+
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a46d997f9f6268a4',t:'MTc5MTM4MzM4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
